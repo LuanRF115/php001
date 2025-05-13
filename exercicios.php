@@ -1,0 +1,45 @@
+<?php
+echo "Olá mundo" ; 
+?> <br>
+5+2 = <?php echo 5+2; ?> <br>
+10-2 = <?php echo 10-2; ?> <br>
+10/2 = <?php echo 10/2; ?> <br>
+10*2 = <?php echo 10*2; ?> <br>
+10%3 = <?php echo 10%3; ?> <br>
+10**2 = <?php echo 10**2; ?> <br>
+
+<?php
+$salario = 5000.35;
+$idade = 21;
+$sobrenome = "Felipe";
+$animalEstimacao = false; // bool ou boolean
+
+echo "<br>";
+echo "Eu tenho $idade anos <br> ";
+echo 'Eu tenho $idade anos <br> ';
+echo 'Eu tenho ' . $idade . ' anos <br> ';
+echo "Eu tenho " . $idade . " anos <br> ";
+
+if($idade > 21){
+    echo "cuidado com o tigrinho";
+
+}else{
+    echo "você ainda tem chance";
+}
+?>
+
+<?="ola";?>
+
+switch($corFavorita) {
+    case 'azul' :
+        echo "<br>Sua cor favorita é azul";
+        break;
+    case 'vermelho':
+        echo"<br>Sua cor favorita é vermelho";
+        break;
+    case 'amarelo':
+        echo"<br>Sua cor favorita é amarelo";
+    default:
+      echo"<br>Não sei sua cor favorita";
+      break;
+}
