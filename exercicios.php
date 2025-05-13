@@ -30,6 +30,10 @@ if($idade > 21){
 
 <?="ola";?>
 
+<?php
+
+$corFavorita = "Rosa";
+
 switch($corFavorita) {
     case 'azul' :
         echo "<br>Sua cor favorita é azul";
@@ -43,3 +47,15 @@ switch($corFavorita) {
       echo"<br>Não sei sua cor favorita";
       break;
 }
+
+$i = 0;
+while($i<10){
+    echo "<br>vambora";
+    $i = $i + 1;
+}
+
+for($i = 0; $i < 10; $i=$i=1){
+    echo "<br>vambora";
+}
+
+?>
